@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: arial;
+}
+
+.header {
+    width: 1360px;
+    height: 590px;
+    background-image: url(../img/new_york.webp);
+    background-size: cover;
+}
+
+.menu {
+    width: 1360px;
+    height: 55px;
+    background-color: rgba(0, 0, 0, 51%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.left .logo img {
+    margin-right: 45px;
+}
+
+.left_options ul{
+    display: flex;
+}
+
+.left_options ul li {
+    margin-left: 15px;
+}
+
+.left_options a {
+    text-decoration: none;
+    color: white;
+}
+
+.left_options a:hover {
+    color: rgb(255, 88, 191);
+}
+
+.logo img {
+    width: 120px;
+}
+
+.right {
+    margin-right: 30px;
+}
+
+.right_options ul {
+    display: flex;
+    align-items: center;
+}
+
+.right_options ul li {
+    margin-right: 15px;
+    align-items: center;
+}
+
+.right_options a {
+    text-decoration: none;
+    color: white;
+}
+
+.right_options a:hover {
+    color: rgb(255, 88, 191);
+}
+
+.right_options a img {
+    margin-right: 8px;
+}
+
+.right_options ul li button {
+    padding: 12px 20px;
+    align-items: center;
+    background-color: rgb(130, 91, 236);
+    border: none;
+    border-radius: 1px;
+    font-size: 12px;
+    margin-left: 3px;
+    color: white;
+}
+
+.right_options ul li button:hover {
+    background-color: white;
+    color: rgb(130, 91, 236);
+}
+
+.right_options ul li button img {
+    margin-right: 3px;
+}
+
+.middle {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.middle_text h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.middle_text h3 {
+    color: white;
+    margin-right: 262px;
+}
+
+.middle_buttons {
+    margin-top: 79px;
+    margin-right: 415px;
+}
+
+.middle_buttons button {
+    padding: 10px 20px;
+    margin-right: -6px;
+    border-radius: 1px;
+    border: none;
+    color: white;
+}
+
+.middle_buttons .first_button {
+    background-color:rgb(130, 91, 236);
+}
+
+.middle_buttons .second_button {
+    background-color:rgb(97, 44, 241);
+}
+
+.middle_question {
+    width: 758px;
+    height: 95px;
+    margin: 0 384px;
+    justify-content: flex-start;
+    background-color: rgba(149, 62, 248, 0.51);
+}
+
+.middle_question_h3 {
+    margin-right: 472px;
+    padding: 10px 10px;
+    color: white;
+}
+
+.middle_question_input {
+    width: 610px;
+    display: flex;
+    margin-left: 36px;
+}
+
+.middle_question_input input {
+    padding: 7px 4px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.middle_question_input button {
+    padding: 3px 40px;
+    display: flex;
+    align-items: center;
+    background-color:rgb(130, 91, 236);
+    border: none;
+}
+
+.boxes {
+    display: flex;
+    margin-left: 344px;
+}
+
+.box_1 h2, .box_2 h2, .box_3 h2, .box_4 h2, .box_5 h2 {
+    width: 150px;
+    height: 90px;
+    padding: 20px 10px;
+    background-color:rgb(130, 91, 236);
+    color: white;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.box_1 h2:hover, .box_2 h2:hover, .box_3 h2:hover, .box_4 h2:hover, .box_5 h2:hover {
+    background-color: white;
+    color: rgb(130, 91, 236);
+}
+/*.first_button {
+    padding: 10px 20px;
+}

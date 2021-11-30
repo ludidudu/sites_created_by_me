@@ -1,0 +1,135 @@
+.Header {
+    width: 100vw;
+}
+
+.Top {
+    width: 1093px;
+    height: 57px;
+    margin: 0 125px;
+    margin-top: -15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.H1 {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.H1 h1{
+    margin: 0;
+}
+
+.H1:hover {
+    border-bottom: 3px solid rgb(248, 212, 144);
+}
+
+.Options a {
+    margin-left: 31px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.Options a:hover {
+    color: orange;
+}
+
+.SocialMedia ul {
+    display: flex;
+}
+
+.SocialMedia ul li {
+    list-style: none;
+    margin-left: 9px;
+}
+
+.SocialMedia ul li img {
+    width: 15px;
+    cursor: pointer;
+}
+
+.SocialMedia ul li img:hover {
+    background-color: orange;
+    width: 20px;
+}
+
+.Main {
+    width: 100vw;
+}
+
+.Main_container {
+    width: 1093px;
+    height: 684px;
+    margin: 0 125px;
+}
+
+.Main_principal_logo img {
+    width: 1093px;
+    height: 420px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+}
+
+.Main_principal_text {
+    position: absolute;
+    z-index: 999;
+    margin: 0 377px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 30%;
+    color: rgb(255, 255, 255);
+    background-color: rgba(8, 8, 8, 38%);
+}
+
+.Main_principal_text h3 {
+    font-size: 22px;
+}
+
+.Main_principal_text h1 {
+    font-size: 34px;
+}
+
+.Main_principal_text h4 {
+    font-size: 18px;
+}
+
+.Main_three_images {
+    display: flex;
+    margin-right: 20px;
+}
+
+.Main_left img, .Main_middle img, .Main_right img {
+    width: 345px;
+    height: 150px;
+    margin-right: 29px;
+}
+
+.Main_left_bottom, .Main_middle_bottom, .Main_right_bottom {
+    text-align: center;
+    margin-left: -30px;
+    margin-top: 16px;
+}
+
+.Main_left_bottom a, .Main_middle_bottom a, .Main_right_bottom a {
+    padding: 5px 26px;
+    background-color: black;
+    color: orange;
+    border-radius: 1px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.Main_left_bottom a:hover, .Main_middle_bottom a:hover, .Main_right_bottom a:hover {
+    background-color: orange;
+    color: black;
+}
+
+.Main_left_bottom p, .Main_middle_bottom p, .Main_right_bottom p {
+    font-weight: 600;
+}
+
+.Main_left_bottom h4, .Main_middle_bottom h4, .Main_right_bottom h4 {
+    color: gray;
+}
